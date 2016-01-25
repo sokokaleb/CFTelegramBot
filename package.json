@@ -1,0 +1,29 @@
+{
+  "name": "CFTelegramBot",
+  "version": "0.0.0",
+  "description": "Telegram bot to use Codeforces API.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm install -g casperjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sokokaleb/CFTelegramBot.git"
+  },
+  "keywords": [
+    "telegram",
+    "codeforces",
+    "bot"
+  ],
+  "author": "Pusaka Kaleb Setyabudi <sokokaleb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sokokaleb/CFTelegramBot/issues"
+  },
+  "homepage": "https://github.com/sokokaleb/CFTelegramBot",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "node-telegram-bot-api": "^0.19.2"
+  }
+}
