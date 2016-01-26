@@ -12,3 +12,6 @@
 
 # Idea files
 /.idea
+
+# Cookies files
+/cookies*
